@@ -45,7 +45,7 @@ export function OurStats() {
       <div>
         <div className="grid grid-cols-2 gap-8 gap-x-28">
           {STATS.map((props, key) => (
-            <StatsCard key={key} {...props} />
+            <StatsCard children={undefined} placeholder={undefined} onResize={undefined} onResizeCapture={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined} key={key} {...props} />
           ))}
         </div>
       </div>
