@@ -70,9 +70,11 @@ export function EventContentCard({
           {des}
         </p>
         <div className="flex items-center gap-4">
-          <img
+          <Image
             src="/logos/spotify-logo.png"
             alt="spotify"
+            width={64}
+            height={64}
             className="rounded-full w-16 h-16"
           />
           <div>
