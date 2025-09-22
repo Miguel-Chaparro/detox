@@ -5,21 +5,20 @@ import { PlayIcon } from "@heroicons/react/24/solid";
 
 function Hero() {
   return (
-    <div className="relative min-h-screen w-full bg-[url('/image/event.jpeg')] bg-cover bg-no-repeat">
-    <div className="absolute inset-0 h-full w-full bg-gray-900/60" />
+    <div className="relative min-h-screen w-full bg-[url('/image/event.png')] bg-cover bg-no-repeat">
+    <div className="absolute inset-0 h-full w-full " />
     <div className="grid min-h-screen px-8">
       <div className="container relative z-10 my-auto mx-auto grid place-items-center text-center">
-        <h3 className="mb-2 text-white">
-          29-31 August @ New York
+        <h3 className="mb-2 text-black">
+          Erica Huertas
         </h3>
-        <h1 className="lg:max-w-3xl text-white">
-          AI Conference 2023: Unlocking the Future
+        <h1 className="lg:max-w-3xl text-black">
+          Detox Drinks - Healthy Beverages for a Better You
         </h1>
         <p
-            className="mt-1 mb-12 w-full md:max-w-full lg:max-w-2xl text-white"
+            className="mt-1 mb-12 w-full md:max-w-full lg:max-w-2xl text-gray-900"
         >
-          Join us for the most anticipated event of the year - the AI
-          Conference 2023!
+          Conoce nuestros productos y beneficios
         </p>
         <div className="flex items-center gap-4">
           <Button
@@ -32,7 +31,7 @@ function Hero() {
             onPointerEnterCapture={() => {}}
             onPointerLeaveCapture={() => {}}
           >
-            Get started
+            Mira los productos
           </Button>
           <IconButton
             type="button"

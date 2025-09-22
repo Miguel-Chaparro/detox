@@ -36,17 +36,17 @@ function NavItem({ children, href }: NavItemProps) {
 
 const NAV_MENU = [
   {
-    name: "Page",
+    name: "Principal",
     icon: RectangleStackIcon,
   },
   {
-    name: "Account",
+    name: "Beneficios",
     icon: UserCircleIcon,
   },
   {
-    name: "Docs",
+    name: "Nuestros Productos",
     icon: CommandLineIcon,
-    href: "https://www.material-tailwind.com/docs/react/installation",
+    href: "https://www.detoxdrinks.com.co",
   },
 ];
 
@@ -93,7 +93,7 @@ export function Navbar() {
     >
       <div className="container mx-auto flex items-center justify-between">
         <Typography
-          color={isScrolling ? "blue-gray" : "white"}
+          color={isScrolling ? "blue-gray" : "black"}
           className="text-lg font-bold"
           placeholder={undefined}
           onResize={undefined}
@@ -101,11 +101,11 @@ export function Navbar() {
           onPointerEnterCapture={undefined}
           onPointerLeaveCapture={undefined}
         >
-          Material Tailwind
+          Detox Drinks
         </Typography>
         <ul
           className={`ml-10 hidden items-center gap-6 lg:flex ${
-            isScrolling ? "text-gray-900" : "text-white"
+            isScrolling ? "text-gray-900" : "text-black"
           }`}
         >
           {NAV_MENU.map(({ name, icon: Icon, href }) => (
@@ -117,7 +117,7 @@ export function Navbar() {
         </ul>
         <div className="hidden items-center gap-4 lg:flex">
           <Button 
-            color={isScrolling ? "gray" : "white"} 
+            color={isScrolling ? "gray" : "gray"} 
             variant="text"
             placeholder={undefined}
             onResize={undefined}
@@ -125,7 +125,7 @@ export function Navbar() {
             onPointerEnterCapture={undefined}
             onPointerLeaveCapture={undefined}
           >
-            Log in
+            Inicia Sesion
           </Button>
           <a href="https://www.material-tailwind.com/blocks" target="_blank">
             <Button 
@@ -136,7 +136,7 @@ export function Navbar() {
               onPointerEnterCapture={undefined}
               onPointerLeaveCapture={undefined}
             >
-              blocks
+              Erica Huertas
             </Button>
           </a>
         </div>
@@ -170,7 +170,7 @@ export function Navbar() {
           </ul>
           <div className="mt-6 flex items-center gap-4">
             <Button variant="text" placeholder={undefined} onResize={undefined} onResizeCapture={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>Log in</Button>
-            <a href="https://www.materila-tailwind.com/blocks" target="_blank">
+            <a href="https://www.detoxdrinks.com.co" target="_blank">
               <Button color="gray" placeholder={undefined} onResize={undefined} onResizeCapture={undefined} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>blocks</Button>
             </a>
           </div>
