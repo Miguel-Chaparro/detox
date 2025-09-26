@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.detoxdrinks.com.co/sitemap.xml
+Robots: https://www.detoxdrinks.com.co/robots.txt

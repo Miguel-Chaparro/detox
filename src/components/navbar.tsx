@@ -92,17 +92,13 @@ export function Navbar() {
       {...(typeof window !== "undefined" ? {} : {})}
     >
       <div className="container mx-auto flex items-center justify-between">
-        <Typography
-          color={isScrolling ? "blue-gray" : "black"}
-          className="text-lg font-bold"
-          placeholder={undefined}
-          onResize={undefined}
-          onResizeCapture={undefined}
-          onPointerEnterCapture={undefined}
-          onPointerLeaveCapture={undefined}
-        >
-          Detox Drinks
-        </Typography>
+        <a href="/">
+          <img
+            src="/detox/DetoxTxt.png"
+            alt="Detox Drinks Logo"
+            className="h-20"
+          />
+        </a>
         <ul
           className={`ml-10 hidden items-center gap-6 lg:flex ${
             isScrolling ? "text-gray-900" : "text-black"
@@ -127,7 +123,7 @@ export function Navbar() {
           >
             Inicia Sesion
           </Button>
-          <a href="https://www.material-tailwind.com/blocks" target="_blank">
+          <a href="https://www.detoxdrinks.com.co" target="_blank">
             <Button 
               color={isScrolling ? "gray" : "white"}
               placeholder={undefined}

@@ -22,7 +22,7 @@ export function Footer() {
         </div>
         <div className="flex flex-col md:flex-row items-center !justify-between">
           <a
-            href="https://www.material-tailwind.com"
+            href="https://www.detoxdrinks.com.co"
             target="_blank"
             className="text-gray-900 text-lg font-semibold"
           >
@@ -57,9 +57,9 @@ export function Footer() {
         </div>
         <p className="text-center mt-12 font-normal text-gray-700">
           &copy; {CURRENT_YEAR} Made with{' '}
-          <a href="https://www.material-tailwind.com" target="_blank" className="underline">Material Tailwind</a>{' '}
+          <a href="https://www.detoxdrinks.com.co" target="_blank" className="underline">Detox Drinks</a>{' '}
           by{' '}
-          <a href="https://www.creative-tim.com" target="_blank" className="underline">Creative Tim</a>.
+          <a href="https://www.detoxdrinks.com.co" target="_blank" className="underline">Erica Huertas</a>.
         </p>
       </div>
     </footer>
