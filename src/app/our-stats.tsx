@@ -5,20 +5,20 @@ import StatsCard from "@/components/stats-card";
 
 const STATS = [
   {
-    count: "1,500+",
-    title: "Participants",
+    count: "750+",
+    title: "Vendidas",
   },
   {
     count: "50",
-    title: "Speakers",
+    title: "Nuestros Clientes",
   },
   {
     count: "20+",
-    title: "Workshops",
+    title: "Paquetes",
   },
   {
-    count: "3",
-    title: "Days",
+    count: "6",
+    title: "Resultados en 6 días",
   },
 ];
 
@@ -27,19 +27,17 @@ export function OurStats() {
     <section className="container mx-auto grid gap-10 px-8 py-44 lg:grid-cols-1 lg:gap-20 xl:grid-cols-2 xl:place-items-center">
       <div>
         <h6 className="mb-6 font-medium" style={{ color: 'orange' }}>
-          Our Stats
+          Nuestros Clientes
         </h6>
         <h2
           className="text-5xl font-bold leading-tight lg:w-3/4 text-blue-gray-700"
         >
-          Conference Highlights
+          Los mejores productos para una vida saludable y equilibrada.
         </h2>
         <p
           className="mt-3 w-full !text-gray-500 lg:w-9/12 text-blue-gray-700"
         >
-          This three-day extravaganza brings together the brightest minds,
-          leading innovators, and top companies in the field of Artificial
-          Intelligence.
+          En Detox, nos enorgullece ofrecer productos de alta calidad que promueven un estilo de vida saludable y equilibrado. Nuestros productos están diseñados para ayudarte a sentirte revitalizado, mejorar tu bienestar general y apoyar tus objetivos de salud. Ya sea que busques suplementos naturales, bebidas detoxificantes o productos para el cuidado personal, en Detox encontrarás opciones confiables y efectivas que se adaptan a tus necesidades.
         </p>
       </div>
       <div>

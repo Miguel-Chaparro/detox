@@ -12,7 +12,7 @@ const roboto = Roboto({
 export const metadata: Metadata = {
   title: "Detox Drinks | Batidos Naturales para una Vida Saludable",
   description: "Descubre Detox Drinks, tu fuente de batidos naturales listos para preparar. Mejora tu alimentación y complementa tu rutina de ejercicio con nuestras deliciosas y saludables recetas.",
-  keywords: "batidos naturales, detox, vida saludable, alimentación sana, recetas de batidos, ejercicio y nutrición",
+  keywords: "detox drinks, batidos naturales, detox, vida saludable, alimentación sana, recetas de batidos, ejercicio y nutrición",
   authors: [{ name: "Erica Huertas", url: "https://www.instagram.com/erica.huertas/" }],
   creator: "Erica Huertas",
   publisher: "Erica Huertas",

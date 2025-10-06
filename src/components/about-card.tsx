@@ -1,3 +1,4 @@
+import Image from "next/image";
 import {
   Card,
   CardBody,
@@ -9,20 +10,36 @@ interface AboutCardProp {
   title: string;
   subTitle: string;
   description: string;
+  img?: string;
 }
 
-export function AboutCard({ title, description, subTitle }: AboutCardProp) {
+export function AboutCard({ title, description, subTitle, img }: AboutCardProp) {
   return (
     <Card
       shadow={false}
+      className="relative overflow-hidden"
       placeholder={undefined}
       onResize={undefined}
       onResizeCapture={undefined}
       onPointerEnterCapture={undefined}
       onPointerLeaveCapture={undefined}
     >
+      {/* background image */}
+      {img && (
+        <div className="absolute inset-0 z-0">
+          <Image
+            src={img}
+            alt={title || subTitle || "background"}
+            fill
+            className="object-cover object-center"
+            sizes="(max-width: 768px) 100vw, 50vw"
+          />
+          <div className="absolute inset-0 bg-black/45" />
+        </div>
+      )}
+
       <CardBody
-        className="h-[453px] p-5 flex flex-col justify-center items-center rounded-2xl bg-gray-900 "
+        className="relative z-10 h-[453px] p-5 flex flex-col justify-center items-center rounded-2xl bg-gray-900/60"
         placeholder={undefined}
         onResize={undefined}
         onResizeCapture={undefined}

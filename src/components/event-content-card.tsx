@@ -71,8 +71,8 @@ export function EventContentCard({
         </p>
         <div className="flex items-center gap-4">
           <Image
-            src="/logos/spotify-logo.png"
-            alt="spotify"
+            src="/detox/DetoxRedes.png"
+            alt="Detox Drinks"
             width={64}
             height={64}
             className="rounded-full w-16 h-16"
